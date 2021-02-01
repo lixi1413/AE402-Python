@@ -1,0 +1,14 @@
+score=input("請使用者輸入0~100成績")
+score=int(score)
+if(score==100):
+    print("A+")
+elif(score>=90)and(score<=99):
+    print("A")
+elif(score>=70)and(score<=89):
+    print("B")
+elif(score==0):
+    print("不用考了")
+elif(score<<0)and(score>100):
+    print("請重新輸入")
+else:
+    print("C")

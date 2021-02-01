@@ -1,0 +1,12 @@
+math_score=input("數學成績")
+english_score=input("英文成績")
+math_score=int(math_score)
+english_score=int(english_score)
+if(english_score>=90)and(math_score>=90):
+    print("有獎品")
+elif(english_score>=90)and(math_score<90):
+    print("再加油")
+elif(english_score<90)and(math_score>90):
+    print("再加油")
+elif(english_score<90)and(math_score<90):
+    print("要處罰")
