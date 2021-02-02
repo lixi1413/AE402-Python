@@ -1,0 +1,16 @@
+math_score=input("請使用者輸入數學成績")
+english_score=input("請使用者輸入英文成績")
+math_score=int(math_score)
+english_score=int(english_score)
+if(math_score>100)or(math_score<0):
+    print("請重新輸入")
+elif(english_score>100)or(english_score<0):
+    print("請重新輸入")
+elif(english_score>=90)and(math_score>=90):
+    print("獲得校長獎學金")
+elif(math_score==100)and(english_score<<90):
+    print("獲得校長獎學金")
+elif(english_score==100)and(math_score<<90):
+    print("獲得校長獎學金")
+else:
+    print("再加油")
