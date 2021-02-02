@@ -13,4 +13,4 @@ while count<5:
         print("猜了",count,"次")
     elif number<num:
         print("比數字大")
-        print("猜了",count,"次") 
+        print("猜了",count,"次")
